@@ -409,6 +409,7 @@ namespace CryptoNote
         {0x7f, 0x70, 0x28, 0x86, 0x9e, 0xe7, 0x17, 0x10, 0x81, 0xd5, 0xe5, 0xce, 0x84, 0xce, 0x1d, 0xe9}};
 
     const char *const SEED_NODES[] = {
-        "132.145.17.138:11897" // jakew
+        "132.145.17.138:11897", // jakew
+        "159.69.148.202:11897" // jakew temp
     };
 } // namespace CryptoNote
