@@ -21,7 +21,7 @@ namespace CryptoNote
 {
     namespace parameters
     {
-        const uint64_t DIFFICULTY_TARGET = 300; // seconds
+        const uint64_t DIFFICULTY_TARGET = 60; // seconds
 
         const uint32_t CRYPTONOTE_MAX_BLOCK_NUMBER = 500000000;
 
@@ -44,7 +44,7 @@ namespace CryptoNote
         const size_t BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW_V3 = 11;
 
         // MONEY_SUPPLY - total number coins to be generated
-        const uint64_t MONEY_SUPPLY = UINT64_C(10000000000);
+        const uint64_t MONEY_SUPPLY = UINT64_C(10000000000000);
 
         const uint32_t ZAWY_DIFFICULTY_BLOCK_INDEX = 0;
 
